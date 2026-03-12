@@ -1,0 +1,5 @@
+outs:
+- md5: 1e3d51c4d6b2b4a4c97bd1f693f3e16d
+  size: 190000131
+  hash: md5
+  path: xyzrgb_statuette.ply

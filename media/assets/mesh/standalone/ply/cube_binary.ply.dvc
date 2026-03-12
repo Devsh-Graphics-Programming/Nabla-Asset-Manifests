@@ -1,0 +1,5 @@
+outs:
+- md5: b65a77ae1b9aea70f54cf01bb73303ee
+  size: 447
+  hash: md5
+  path: cube_binary.ply

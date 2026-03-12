@@ -1,0 +1,5 @@
+outs:
+- md5: a296ad7abc5a5c8257ec291d36aad655
+  size: 533059290
+  hash: md5
+  path: lucy.ply

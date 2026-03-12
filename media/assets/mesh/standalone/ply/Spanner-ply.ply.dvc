@@ -1,0 +1,5 @@
+outs:
+- md5: 02895246aabd8080b5ab2a33fcc15f8e
+  size: 5700266
+  hash: md5
+  path: Spanner-ply.ply

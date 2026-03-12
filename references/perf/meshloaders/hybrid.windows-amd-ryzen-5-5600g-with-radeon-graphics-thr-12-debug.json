@@ -1,0 +1,619 @@
+{
+  "schema_version": "meshloaders-perf-run-v1",
+  "protocol_version": "meshloaders-roundtrip-v1",
+  "profile_id": "windows-amd-ryzen-5-5600g-with-radeon-graphics-thr-12-debug",
+  "workload_id": "b2d434c8091130752195516ba6be050ed635090644ad306713502ce3cae6431c",
+  "run_mode": "ci",
+  "runtime_tuning": "hybrid",
+  "provenance": {
+    "created_at_utc": "2026-03-11T19:07:52Z",
+    "nabla_commit": "3e5ac16366792c77ea83a217fbb0aee3b26da1e7",
+    "nabla_dirty": false,
+    "examples_commit": "187aebeaf3287ba5ba3a6e872bd682af988d8e85",
+    "examples_dirty": false
+  },
+  "environment": {
+    "platform": "windows",
+    "os_full_name": "Unknown",
+    "cpu_name": "AMD Ryzen 5 5600G with Radeon Graphics",
+    "physical_core_count": 6,
+    "gpu_name": "NVIDIA GeForce RTX 4070",
+    "total_memory_bytes": 68501581824,
+    "available_memory_bytes": 42716360704,
+    "hardware_concurrency": 12,
+    "build_config": "Debug"
+  },
+  "inputs": {
+    "test_list_name": "inputs_benchmark.json",
+    "row_view_enabled": false,
+    "case_count": 18
+  },
+  "cases": [
+    {
+      "name": "00004955_d6f9da33017048c683ac514f_trimesh_019",
+      "input_path": "assets/classes/mini/obj/00004955_d6f9da33017048c683ac514f_trimesh_019.obj",
+      "original_load": {
+        "valid": true,
+        "input_size": 187699,
+        "get_asset_ms": 10.2624,
+        "extract_ms": 0.0923,
+        "total_ms": 10.3547,
+        "non_loader_ms": 0.0923
+      },
+      "write": {
+        "valid": true,
+        "output_size": 94631,
+        "open_ms": 0.0,
+        "write_ms": 3.5653,
+        "stat_ms": 0.0,
+        "total_ms": 7.931,
+        "non_writer_ms": 4.3657,
+        "used_memory_transport": true,
+        "used_disk_fallback": false,
+        "persisted_disk_artifact": false
+      },
+      "written_load": {
+        "valid": true,
+        "input_size": 94631,
+        "get_asset_ms": 11.6603,
+        "extract_ms": 0.0302,
+        "total_ms": 11.6905,
+        "non_loader_ms": 0.0302
+      }
+    },
+    {
+      "name": "00000050_trimesh_000",
+      "input_path": "assets/classes/small/obj/00000050_trimesh_000.obj",
+      "original_load": {
+        "valid": true,
+        "input_size": 5079522,
+        "get_asset_ms": 69.8721,
+        "extract_ms": 0.0395,
+        "total_ms": 69.9116,
+        "non_loader_ms": 0.0395
+      },
+      "write": {
+        "valid": true,
+        "output_size": 2730965,
+        "open_ms": 0.0,
+        "write_ms": 44.264,
+        "stat_ms": 0.0,
+        "total_ms": 44.3115,
+        "non_writer_ms": 0.04749999999999943,
+        "used_memory_transport": true,
+        "used_disk_fallback": false,
+        "persisted_disk_artifact": false
+      },
+      "written_load": {
+        "valid": true,
+        "input_size": 2730965,
+        "get_asset_ms": 68.9814,
+        "extract_ms": 0.0273,
+        "total_ms": 69.00869999999999,
+        "non_loader_ms": 0.0273
+      }
+    },
+    {
+      "name": "00002012_df521a96e8fe4dc1a24e5b3e_trimesh_000",
+      "input_path": "assets/classes/medium/obj/00002012_df521a96e8fe4dc1a24e5b3e_trimesh_000.obj",
+      "original_load": {
+        "valid": true,
+        "input_size": 304107731,
+        "get_asset_ms": 3876.1454,
+        "extract_ms": 0.0267,
+        "total_ms": 3876.1721,
+        "non_loader_ms": 0.0267
+      },
+      "write": {
+        "valid": true,
+        "output_size": 170085498,
+        "open_ms": 0.0,
+        "write_ms": 1885.7927,
+        "stat_ms": 0.0,
+        "total_ms": 1885.8497,
+        "non_writer_ms": 0.05700000000001637,
+        "used_memory_transport": true,
+        "used_disk_fallback": false,
+        "persisted_disk_artifact": false
+      },
+      "written_load": {
+        "valid": true,
+        "input_size": 170085498,
+        "get_asset_ms": 3448.6798,
+        "extract_ms": 0.0333,
+        "total_ms": 3448.7131,
+        "non_loader_ms": 0.0333
+      }
+    },
+    {
+      "name": "00007550_39b8753e288548acb61c7b2a_trimesh_002",
+      "input_path": "assets/classes/giga/obj/00007550_39b8753e288548acb61c7b2a_trimesh_002.obj",
+      "original_load": {
+        "valid": true,
+        "input_size": 326486219,
+        "get_asset_ms": 4503.1267,
+        "extract_ms": 0.028,
+        "total_ms": 4503.1547,
+        "non_loader_ms": 0.028
+      },
+      "write": {
+        "valid": true,
+        "output_size": 180170618,
+        "open_ms": 0.0,
+        "write_ms": 2105.2013,
+        "stat_ms": 0.0,
+        "total_ms": 2105.2511,
+        "non_writer_ms": 0.049799999999777356,
+        "used_memory_transport": true,
+        "used_disk_fallback": false,
+        "persisted_disk_artifact": false
+      },
+      "written_load": {
+        "valid": true,
+        "input_size": 180170618,
+        "get_asset_ms": 4023.6351,
+        "extract_ms": 0.0529,
+        "total_ms": 4023.688,
+        "non_loader_ms": 0.0529
+      }
+    },
+    {
+      "name": "yellowflower",
+      "input_path": "assets/branches/obj/yellowflower.obj",
+      "original_load": {
+        "valid": true,
+        "input_size": 104416,
+        "get_asset_ms": 11.9505,
+        "extract_ms": 0.0252,
+        "total_ms": 11.9757,
+        "non_loader_ms": 0.0252
+      },
+      "write": {
+        "valid": true,
+        "output_size": 304219,
+        "open_ms": 0.0,
+        "write_ms": 10.7369,
+        "stat_ms": 0.0,
+        "total_ms": 10.7722,
+        "non_writer_ms": 0.03529999999999944,
+        "used_memory_transport": true,
+        "used_disk_fallback": false,
+        "persisted_disk_artifact": false
+      },
+      "written_load": {
+        "valid": true,
+        "input_size": 304219,
+        "get_asset_ms": 37.1954,
+        "extract_ms": 0.0263,
+        "total_ms": 37.2217,
+        "non_loader_ms": 0.0263
+      }
+    },
+    {
+      "name": "00004955_d6f9da33017048c683ac514f_trimesh_019_1",
+      "input_path": "assets/classes/mini/obj/00004955_d6f9da33017048c683ac514f_trimesh_019.obj",
+      "original_load": {
+        "valid": true,
+        "input_size": 187699,
+        "get_asset_ms": 11.5053,
+        "extract_ms": 0.0354,
+        "total_ms": 11.5407,
+        "non_loader_ms": 0.0354
+      },
+      "write": {
+        "valid": true,
+        "output_size": 94631,
+        "open_ms": 0.0,
+        "write_ms": 1.8208,
+        "stat_ms": 0.0,
+        "total_ms": 1.8597,
+        "non_writer_ms": 0.038899999999999935,
+        "used_memory_transport": true,
+        "used_disk_fallback": false,
+        "persisted_disk_artifact": false
+      },
+      "written_load": {
+        "valid": true,
+        "input_size": 94631,
+        "get_asset_ms": 34.8286,
+        "extract_ms": 0.0335,
+        "total_ms": 34.8621,
+        "non_loader_ms": 0.0335
+      }
+    },
+    {
+      "name": "00003281_f2ec2bcaa0184b049e1e8af9_trimesh_000",
+      "input_path": "assets/classes/mini/stl/00003281_f2ec2bcaa0184b049e1e8af9_trimesh_000.stl",
+      "original_load": {
+        "valid": true,
+        "input_size": 150284,
+        "get_asset_ms": 8.5396,
+        "extract_ms": 0.0196,
+        "total_ms": 8.5592,
+        "non_loader_ms": 0.0196
+      },
+      "write": {
+        "valid": true,
+        "output_size": 150284,
+        "open_ms": 0.0,
+        "write_ms": 0.5303,
+        "stat_ms": 0.0,
+        "total_ms": 0.5802,
+        "non_writer_ms": 0.049900000000000055,
+        "used_memory_transport": true,
+        "used_disk_fallback": false,
+        "persisted_disk_artifact": false
+      },
+      "written_load": {
+        "valid": true,
+        "input_size": 150284,
+        "get_asset_ms": 29.5518,
+        "extract_ms": 0.0218,
+        "total_ms": 29.5736,
+        "non_loader_ms": 0.0218
+      }
+    },
+    {
+      "name": "00005999_c43c4fc6c6584eb8b872f15a_trimesh_001",
+      "input_path": "assets/classes/small/stl/00005999_c43c4fc6c6584eb8b872f15a_trimesh_001.stl",
+      "original_load": {
+        "valid": true,
+        "input_size": 5003884,
+        "get_asset_ms": 16.7322,
+        "extract_ms": 0.0197,
+        "total_ms": 16.7519,
+        "non_loader_ms": 0.0197
+      },
+      "write": {
+        "valid": true,
+        "output_size": 5003884,
+        "open_ms": 0.0,
+        "write_ms": 11.6366,
+        "stat_ms": 0.0,
+        "total_ms": 11.6759,
+        "non_writer_ms": 0.03930000000000078,
+        "used_memory_transport": true,
+        "used_disk_fallback": false,
+        "persisted_disk_artifact": false
+      },
+      "written_load": {
+        "valid": true,
+        "input_size": 5003884,
+        "get_asset_ms": 34.3682,
+        "extract_ms": 0.0252,
+        "total_ms": 34.3934,
+        "non_loader_ms": 0.0252
+      }
+    },
+    {
+      "name": "00005640_b357e8687df34423a376a23f_trimesh_011",
+      "input_path": "assets/classes/medium/stl/00005640_b357e8687df34423a376a23f_trimesh_011.stl",
+      "original_load": {
+        "valid": true,
+        "input_size": 298616084,
+        "get_asset_ms": 222.3858,
+        "extract_ms": 0.0368,
+        "total_ms": 222.4226,
+        "non_loader_ms": 0.0368
+      },
+      "write": {
+        "valid": true,
+        "output_size": 298616084,
+        "open_ms": 0.0,
+        "write_ms": 695.1353,
+        "stat_ms": 0.0,
+        "total_ms": 695.1926,
+        "non_writer_ms": 0.057299999999941065,
+        "used_memory_transport": true,
+        "used_disk_fallback": false,
+        "persisted_disk_artifact": false
+      },
+      "written_load": {
+        "valid": true,
+        "input_size": 298616084,
+        "get_asset_ms": 268.1598,
+        "extract_ms": 0.0395,
+        "total_ms": 268.1993,
+        "non_loader_ms": 0.0395
+      }
+    },
+    {
+      "name": "00005760_e0f82256c529440487cff0a1_trimesh_001",
+      "input_path": "assets/classes/giga/stl/00005760_e0f82256c529440487cff0a1_trimesh_001.stl",
+      "original_load": {
+        "valid": true,
+        "input_size": 764424884,
+        "get_asset_ms": 549.5991,
+        "extract_ms": 0.0202,
+        "total_ms": 549.6193000000001,
+        "non_loader_ms": 0.0202
+      },
+      "write": {
+        "valid": true,
+        "output_size": 764424884,
+        "open_ms": 0.0,
+        "write_ms": 1531.5319,
+        "stat_ms": 0.0,
+        "total_ms": 1531.5771,
+        "non_writer_ms": 0.045200000000022555,
+        "used_memory_transport": true,
+        "used_disk_fallback": false,
+        "persisted_disk_artifact": false
+      },
+      "written_load": {
+        "valid": true,
+        "input_size": 764424884,
+        "get_asset_ms": 731.569,
+        "extract_ms": 0.0455,
+        "total_ms": 731.6144999999999,
+        "non_loader_ms": 0.0455
+      }
+    },
+    {
+      "name": "Spider_ascii",
+      "input_path": "assets/branches/stl/Spider_ascii.stl",
+      "original_load": {
+        "valid": true,
+        "input_size": 281457,
+        "get_asset_ms": 4.5432,
+        "extract_ms": 0.0198,
+        "total_ms": 4.563,
+        "non_loader_ms": 0.0198
+      },
+      "write": {
+        "valid": true,
+        "output_size": 68484,
+        "open_ms": 0.0,
+        "write_ms": 0.5935,
+        "stat_ms": 0.0,
+        "total_ms": 0.6382,
+        "non_writer_ms": 0.04469999999999996,
+        "used_memory_transport": true,
+        "used_disk_fallback": false,
+        "persisted_disk_artifact": false
+      },
+      "written_load": {
+        "valid": true,
+        "input_size": 68484,
+        "get_asset_ms": 30.8008,
+        "extract_ms": 0.0265,
+        "total_ms": 30.827299999999997,
+        "non_loader_ms": 0.0265
+      }
+    },
+    {
+      "name": "Spider_binary",
+      "input_path": "assets/branches/stl/Spider_binary.stl",
+      "original_load": {
+        "valid": true,
+        "input_size": 68484,
+        "get_asset_ms": 8.131,
+        "extract_ms": 0.0195,
+        "total_ms": 8.150500000000001,
+        "non_loader_ms": 0.0195
+      },
+      "write": {
+        "valid": true,
+        "output_size": 68484,
+        "open_ms": 0.0,
+        "write_ms": 0.5248,
+        "stat_ms": 0.0,
+        "total_ms": 0.5611,
+        "non_writer_ms": 0.0363,
+        "used_memory_transport": true,
+        "used_disk_fallback": false,
+        "persisted_disk_artifact": false
+      },
+      "written_load": {
+        "valid": true,
+        "input_size": 68484,
+        "get_asset_ms": 30.373,
+        "extract_ms": 0.0276,
+        "total_ms": 30.4006,
+        "non_loader_ms": 0.0276
+      }
+    },
+    {
+      "name": "cube_binary",
+      "input_path": "assets/branches/ply/cube_binary.ply",
+      "original_load": {
+        "valid": true,
+        "input_size": 447,
+        "get_asset_ms": 0.5839,
+        "extract_ms": 0.0189,
+        "total_ms": 0.6028,
+        "non_loader_ms": 0.0189
+      },
+      "write": {
+        "valid": true,
+        "output_size": 386,
+        "open_ms": 0.0,
+        "write_ms": 0.4102,
+        "stat_ms": 0.0,
+        "total_ms": 0.4522,
+        "non_writer_ms": 0.04199999999999998,
+        "used_memory_transport": true,
+        "used_disk_fallback": false,
+        "persisted_disk_artifact": false
+      },
+      "written_load": {
+        "valid": true,
+        "input_size": 386,
+        "get_asset_ms": 0.2513,
+        "extract_ms": 0.0244,
+        "total_ms": 0.2757,
+        "non_loader_ms": 0.0244
+      }
+    },
+    {
+      "name": "gatech_dragon",
+      "input_path": "assets/classes/small/ply/gatech_dragon.ply",
+      "original_load": {
+        "valid": true,
+        "input_size": 33831477,
+        "get_asset_ms": 1978.2748,
+        "extract_ms": 0.0197,
+        "total_ms": 1978.2945,
+        "non_loader_ms": 0.0197
+      },
+      "write": {
+        "valid": true,
+        "output_size": 16580337,
+        "open_ms": 0.0,
+        "write_ms": 14.8989,
+        "stat_ms": 0.0,
+        "total_ms": 14.9415,
+        "non_writer_ms": 0.04260000000000019,
+        "used_memory_transport": true,
+        "used_disk_fallback": false,
+        "persisted_disk_artifact": false
+      },
+      "written_load": {
+        "valid": true,
+        "input_size": 16580337,
+        "get_asset_ms": 39.5985,
+        "extract_ms": 0.0261,
+        "total_ms": 39.6246,
+        "non_loader_ms": 0.0261
+      }
+    },
+    {
+      "name": "xyzrgb_statuette",
+      "input_path": "assets/classes/medium/ply/xyzrgb_statuette.ply",
+      "original_load": {
+        "valid": true,
+        "input_size": 190000131,
+        "get_asset_ms": 408.9546,
+        "extract_ms": 0.0199,
+        "total_ms": 408.97450000000003,
+        "non_loader_ms": 0.0199
+      },
+      "write": {
+        "valid": true,
+        "output_size": 190000170,
+        "open_ms": 0.0,
+        "write_ms": 241.7336,
+        "stat_ms": 0.0,
+        "total_ms": 241.7883,
+        "non_writer_ms": 0.05469999999999686,
+        "used_memory_transport": true,
+        "used_disk_fallback": false,
+        "persisted_disk_artifact": false
+      },
+      "written_load": {
+        "valid": true,
+        "input_size": 190000170,
+        "get_asset_ms": 253.2086,
+        "extract_ms": 0.0427,
+        "total_ms": 253.2513,
+        "non_loader_ms": 0.0427
+      }
+    },
+    {
+      "name": "lucy",
+      "input_path": "assets/classes/giga/ply/lucy.ply",
+      "original_load": {
+        "valid": true,
+        "input_size": 533059290,
+        "get_asset_ms": 984.3556,
+        "extract_ms": 0.0302,
+        "total_ms": 984.3858,
+        "non_loader_ms": 0.0302
+      },
+      "write": {
+        "valid": true,
+        "output_size": 533059329,
+        "open_ms": 0.0,
+        "write_ms": 586.6943,
+        "stat_ms": 0.0,
+        "total_ms": 586.7358,
+        "non_writer_ms": 0.04150000000004184,
+        "used_memory_transport": true,
+        "used_disk_fallback": false,
+        "persisted_disk_artifact": false
+      },
+      "written_load": {
+        "valid": true,
+        "input_size": 533059329,
+        "get_asset_ms": 640.3815,
+        "extract_ms": 0.0419,
+        "total_ms": 640.4234,
+        "non_loader_ms": 0.0419
+      }
+    },
+    {
+      "name": "cube_ascii",
+      "input_path": "assets/branches/ply/cube_ascii.ply",
+      "original_load": {
+        "valid": true,
+        "input_size": 329,
+        "get_asset_ms": 0.7803,
+        "extract_ms": 0.026,
+        "total_ms": 0.8063,
+        "non_loader_ms": 0.026
+      },
+      "write": {
+        "valid": true,
+        "output_size": 386,
+        "open_ms": 0.0,
+        "write_ms": 0.3863,
+        "stat_ms": 0.0,
+        "total_ms": 0.425,
+        "non_writer_ms": 0.03870000000000001,
+        "used_memory_transport": true,
+        "used_disk_fallback": false,
+        "persisted_disk_artifact": false
+      },
+      "written_load": {
+        "valid": true,
+        "input_size": 386,
+        "get_asset_ms": 0.2461,
+        "extract_ms": 0.0227,
+        "total_ms": 0.26880000000000004,
+        "non_loader_ms": 0.0227
+      }
+    },
+    {
+      "name": "cube_binary_1",
+      "input_path": "assets/branches/ply/cube_binary.ply",
+      "original_load": {
+        "valid": true,
+        "input_size": 447,
+        "get_asset_ms": 0.6579,
+        "extract_ms": 0.0236,
+        "total_ms": 0.6815,
+        "non_loader_ms": 0.0236
+      },
+      "write": {
+        "valid": true,
+        "output_size": 386,
+        "open_ms": 0.0,
+        "write_ms": 0.3736,
+        "stat_ms": 0.0,
+        "total_ms": 0.4075,
+        "non_writer_ms": 0.033899999999999986,
+        "used_memory_transport": true,
+        "used_disk_fallback": false,
+        "persisted_disk_artifact": false
+      },
+      "written_load": {
+        "valid": true,
+        "input_size": 386,
+        "get_asset_ms": 0.2664,
+        "extract_ms": 0.0194,
+        "total_ms": 0.28580000000000005,
+        "non_loader_ms": 0.0194
+      }
+    }
+  ],
+  "totals": {
+    "run_wall_ms": 36844.8641
+  },
+  "reference": {
+    "lookup_key": "b2d434c8091130752195516ba6be050ed635090644ad306713502ce3cae6431c/windows-amd-ryzen-5-5600g-with-radeon-graphics-thr-12-debug.json",
+    "matched": false,
+    "strict": false,
+    "updated": true,
+    "comparison_failures": []
+  }
+}

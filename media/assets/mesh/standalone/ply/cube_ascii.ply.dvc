@@ -1,0 +1,5 @@
+outs:
+- md5: 64221b3f8f9cd0749898b39a25b68fac
+  size: 329
+  hash: md5
+  path: cube_ascii.ply

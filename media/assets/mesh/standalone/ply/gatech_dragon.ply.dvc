@@ -1,0 +1,5 @@
+outs:
+- md5: b7d4fa1943ca47ef537e6847886e3935
+  size: 33831477
+  hash: md5
+  path: gatech_dragon.ply

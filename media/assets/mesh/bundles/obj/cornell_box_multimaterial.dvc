@@ -1,0 +1,6 @@
+outs:
+- md5: 109d8e7ccc43d1ccde6296766e6be78e.dir
+  size: 2510
+  nfiles: 2
+  hash: md5
+  path: cornell_box_multimaterial

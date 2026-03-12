@@ -1,0 +1,5 @@
+outs:
+- md5: e4c1ed4a75a7b462764d692856696093
+  size: 5079522
+  hash: md5
+  path: 00000050_trimesh_000.obj
