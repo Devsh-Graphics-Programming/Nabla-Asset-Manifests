@@ -1,10 +1,10 @@
 <div align="center">
-  <img alt="Click to see the source" height="200" src="https://devsh-graphics-programming.github.io/Nabla-Asset-Module/auxiliary/nabla-glow.svg" width="200" />
+  <img alt="Click to see the source" height="200" src="https://devsh-graphics-programming.github.io/Nabla-Asset-Manifests/auxiliary/nabla-glow.svg" width="200" />
 </div>
 
 <p align="center">
   <a href="https://github.com/Devsh-Graphics-Programming/Nabla-Asset-Manifests">
-    <img src="https://img.shields.io/github/repo-size/Devsh-Graphics-Programming/Nabla-Asset-Manifests" alt="Repository size" /></a>
+    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fdevsh-graphics-programming.github.io%2FNabla-Asset-Manifests%2Fmetrics%2Fnabla-asset-manifests-repo-size.json" alt="Repository size" /></a>
   <a href="https://opensource.org/licenses/Apache-2.0">
     <img src="https://img.shields.io/badge/license-Apache%202.0-blue" alt="License: Apache 2.0" /></a>
   <a href="https://discord.gg/krsBcABm7u">
