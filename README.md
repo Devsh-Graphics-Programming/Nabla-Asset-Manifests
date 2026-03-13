@@ -3,8 +3,6 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/Devsh-Graphics-Programming/Nabla-Asset-Module/actions/workflows/smoke.yml">
-    <img src="https://github.com/Devsh-Graphics-Programming/Nabla-Asset-Module/actions/workflows/smoke.yml/badge.svg" alt="Smoke Status" /></a>
   <a href="https://github.com/Devsh-Graphics-Programming/Nabla-Asset-Manifests">
     <img src="https://img.shields.io/github/repo-size/Devsh-Graphics-Programming/Nabla-Asset-Manifests" alt="Repository size" /></a>
   <a href="https://opensource.org/licenses/Apache-2.0">
